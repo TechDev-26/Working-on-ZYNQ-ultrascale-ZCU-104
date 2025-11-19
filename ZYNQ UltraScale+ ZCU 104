@@ -1,4 +1,4 @@
-##🚀 Zynq UltraScale+ MPSoC — Overview & Key Concepts
+# ZCU104 OVERVIEW
 The AMD Xilinx ZCU104 evaluation board is built around the Zynq UltraScale+ MPSoC ZU7EV device, which combines a powerful processing system with flexible FPGA fabric on a single chip. The processing system includes a quad-core ARM Cortex-A53 for applications, dual ARM Cortex-R5F cores for real-time tasks, and a Mali-400 GPU for graphics. The ZU7EV device also has a built-in hardware video codec capable of H.264 and H.265 encoding and decoding, making the board suitable for embedded vision and multimedia workloads.
 
 The ZCU104 provides a wide range of interfaces such as Gigabit Ethernet, USB 3.0, DisplayPort, HDMI, MIPI CSI, UART, I2C, SPI, CAN, and PMOD connectivity. It includes an FMC LPC connector that exposes 34 differential pairs for high-speed expansion modules and custom hardware interfaces. The board is equipped with 4 GB DDR4 memory for the processing system, an additional DDR4 for the programmable logic, QSPI flash, and a microSD card slot for booting.
