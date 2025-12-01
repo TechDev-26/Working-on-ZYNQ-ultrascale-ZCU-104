@@ -1,0 +1,15 @@
+module clock_divider(
+    input clk,    //inputs are clock and reset , Output is clk_d
+    input reset,
+    inout clk_d
+);
+reg [28:0] div_cnt;     // considering 29 bit register
+always @(posedge clk)   // We are considering the postive edge of the clock 
+begin
+    if (reset)           // when reset --> 0
+     div_cnt <= 28'd0;
+    else                 // 
+    div_cnt <= div_cnt + 1;
+end
+assign clk_d = div_cnt[1]
+endmodule
